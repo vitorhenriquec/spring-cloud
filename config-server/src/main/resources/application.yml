@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/vitorhenriquec/spring-cloud
-          search-paths:
+          search-paths: server-configurations
 #Local:
 #spring:
 #  profiles:
