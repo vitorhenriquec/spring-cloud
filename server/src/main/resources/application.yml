@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: server
+
+eureka:
+  client:
+    fetch-register: true
+    register-with-eureka: true
+    defaultZone: http://localhost:8761
