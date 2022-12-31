@@ -1,7 +1,15 @@
 package com.demo.server.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Account {
-    private Long id;
+
+    @Id
+    @GeneratedValue
+    private Long id = 0L;
 
     private String owner;
 

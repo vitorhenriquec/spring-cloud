@@ -21,9 +21,10 @@ public class AccountController {
 
     @PostMapping("/")
     public void saveAccount() {
-        var account = new Account(1L, "me");
+        var account = new Account();
+        account.setOwner("me2");
 
-        this
+        this.accountRepository.save(account);
     }
 
 }

@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: server
-
 eureka:
   client:
     fetch-register: true
